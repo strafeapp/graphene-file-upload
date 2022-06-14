@@ -13,12 +13,11 @@ here = path.abspath(path.dirname(__file__))
 # except(IOError, ImportError):
 #     long_description = open('README.md').read()
 
-long_description = open('README.rst').read()
 
 flask_requires = [
     'Flask>=1.0.2',
-    'graphene>=2.1.2',
-    'Flask-Graphql>=2.0.0',
+    'graphene>=3.0',
+    'graphql-server>=3.0.0',
 ]
 
 django_requires = [
